@@ -1,6 +1,8 @@
 ul {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  place-items: center;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   list-style-type: none;
