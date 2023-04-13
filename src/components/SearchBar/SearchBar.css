@@ -1,0 +1,36 @@
+header {
+  padding: 24px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+input {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 22px;
+  border-bottom: 2px solid gray;
+  transition: all 0.3s;
+}
+input:hover {
+  border-bottom: 2px solid white;
+}
+.github-icon {
+  font-size: 22px;
+  color: gray;
+  transition: all 0.3s;
+}
+.github-icon:hover {
+  color: white;
+  cursor: pointer;
+}
